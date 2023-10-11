@@ -15,21 +15,18 @@
             <h1 style="color: rgb(199, 218, 206);font-size: 50px;">CALCULADORA IMC</h1>
 
         </div>
-        <nav>
-            <div style="padding: 1% !important;" class="container text-center ">
-                <div class="row">
-                    <div style="background-color: #D92B2B !important; border-radius: 60%; padding: 2%;" class="col">
-                        ABAIXO DO PESO
-                    </div>
-                    <div style="background-color: #0ddf2de7 !important; border-radius: 60%;  padding: 2%;" class="col">
-                        SAUDAVEL
-                    </div>
-                    <div style="background-color: #D92B2B !important; border-radius: 60%; padding: 2%;" class="col">
-                        SOBREPESO
-                    </div>
+        <div style="padding: 1% !important;" class="container text-center ">
+            <div class="row">
+                <div style="background-color: #D92B2B !important; border-radius: 60%; padding: 2%;" class="col">
+                    ABAIXO DO PESO
                 </div>
-
-        </nav>
+                <div style="background-color: #0ddf2de7 !important; border-radius: 60%;  padding: 2%;" class="col">
+                    SAUDAVEL
+                </div>
+                <div style="background-color: #D92B2B !important; border-radius: 60%; padding: 2%;" class="col">
+                    SOBREPESO
+                </div>
+            </div>
     </header>
     <main>
         <section style="background-color: #52aca9d2; padding: 4% !important; border-radius: 10%;" class="row">
@@ -49,10 +46,10 @@
             <div class="col-4">
                 <button id="btnmulher" type="button"
                     style="background-color: blueviolet; border-radius: 25% !important;">Mulher</button><br>
-                    <img style="border-radius: 25%;" src="img/img1.png" width="100%" id="img1"><br>
+                <img style="border-radius: 25%;" src="img/img1.png" width="100%" id="img1"><br>
                 <button id="btnhomem" type="button"
                     style="background-color: blue; border-radius: 25% !important">Homem</button>
-                
+
 
             </div>
 
@@ -60,7 +57,8 @@
 
     </main>
     <br>
-    <footer style="padding-top: 1%;border-radius: 15%; background-color: #0e0e0e;color: aliceblue; text-align: center; padding: 4em;">
+    <footer
+        style="padding-top: 1%;border-radius: 15%; background-color: #0e0e0e;color: aliceblue; text-align: center; padding: 4em;">
 
 
         <h3>&copy; 2023 minha pagina.
@@ -103,11 +101,11 @@
     }
     document.getElementById("btnmulher").addEventListener("click", function () {
         document.getElementById("body").style.backgroundColor = "blueviolet";
-        document.getElementById("img1").src="img/img3.png";
+        document.getElementById("img1").src = "img/img3.png";
     }, false);
     document.getElementById("btnhomem").addEventListener("click", function () {
         document.getElementById("body").style.backgroundColor = "blue";
-        document.getElementById("img1").src="img/img2.png";
+        document.getElementById("img1").src = "img/img2.png";
     }, false);
 
 </script>
